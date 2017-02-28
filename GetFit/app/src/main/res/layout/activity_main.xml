@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/apples"
+    android:orientation="vertical"
+    tools:context="com.hackbulgaria.getfit.MainActivity">
+
+    <Button
+        android:id="@+id/getHealthPlanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#4CA"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="Get my new food plan"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startCameraActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/getHealthPlanButton"
+        android:layout_alignLeft="@+id/getHealthPlanButton"
+        android:layout_alignRight="@+id/getHealthPlanButton"
+        android:layout_alignStart="@+id/getHealthPlanButton"
+        android:layout_below="@+id/getHealthPlanButton"
+        android:layout_marginTop="35dp"
+        android:background="#4CA"
+        android:fontFamily="casual"
+        android:text="TAKE PHOTOS OF YOUR PROGRESS"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startCameraActivityButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@android:color/background_light"
+        android:fontFamily="casual"
+        android:text="QUIT"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/workoutProgram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/getHealthPlanButton"
+        android:layout_alignEnd="@+id/getHealthPlanButton"
+        android:layout_alignLeft="@+id/getHealthPlanButton"
+        android:layout_alignRight="@+id/getHealthPlanButton"
+        android:layout_alignStart="@+id/getHealthPlanButton"
+        android:layout_marginBottom="30dp"
+        android:background="#4CA"
+        android:fontFamily="casual"
+        android:padding="5dp"
+        android:text="WORKOUT PROGRAM"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:fontFamily="casual"
+        android:text="CHOOSE TO YOUR WAY TO HEALTH"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

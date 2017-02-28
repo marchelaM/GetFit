@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_end_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hackbulgaria.getfit.foodTest.EndTest"
+    android:weightSum="1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_weight="0.78">
+
+        <Button
+            android:text="BACK TO MAIN MENU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backToMain"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:text="SAVE "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveButton"
+            android:background="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"
+            android:layout_above="@+id/backToMain" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/menu"
+            android:id="@+id/menuImage"
+            android:background="@color/colorPrimary"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

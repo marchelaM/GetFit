@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_starttest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hackbulgaria.getfit.foodTest.StartTest">
+
+
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/woman"
+            android:id="@+id/womanImage"
+            android:background="@android:color/white" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/womanButton"
+            android:textSize="36sp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+            android:text="WOMAN" />
+
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/man"
+            android:id="@+id/manImage"
+            android:scaleType="fitCenter"
+            android:background="@android:color/white" />
+
+        <Button
+            android:text="MAN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/manButton"
+            android:layout_alignParentTop="true"
+            android:textSize="36sp"
+            android:textColor="@android:color/background_dark"
+            android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
