@@ -1,5 +1,5 @@
 # GetFit
-Android Health App. Third Place Winner at HackBulgaria Inner Hackathon and Receiver of Nemetschek Corparate Award
+Android Health App. Third Place Winner at HackBulgaria Inner Hackathon and Receiver of Nemetschek Corporate Award
 
 *Link to our Presentation*
 
